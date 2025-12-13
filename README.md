@@ -32,6 +32,7 @@ This work was inspired by Anne Frank's diary, which moved me deeply. The concept
 To verify the deterministic nature of the \mathbf{s}_n Mesh Function, run the Python file:
 
 Frank_equation_CODE.py
+
 The script will output the hash chain (\mathbf{s}_n) and the deterministic control parameters (axis and permutation) for the first five iterations, demonstrating the injectivity of the system.
 
 ## Author
