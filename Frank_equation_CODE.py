@@ -52,7 +52,7 @@ def extract_controls(s_hex: str, used_bits=0):
     pos += len(seed_bits)
 
     # produce a deterministic permutation of 8 using the seed
-    rng = random.Random(seed_int)
+    rng = random.Random(seed_int) #This ensure deterministic permutation based on the hash, emphasizing the cryptographic control.
     perm = list(range(8))
     rng.shuffle(perm)
 
@@ -113,4 +113,5 @@ if _name_ == "_main_":
         if entry['controls'] is not None:
             c = entry['controls']
             axis_map = {0:'X',1:'Y',2:'Z'}
+
             print(f"  axis={axis_map[c['axis']]}, low_first={c['low_first']}, perm={c['perm']}, eps={entry.get('eps')}")
