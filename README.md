@@ -1,7 +1,10 @@
-Frank's Equation: Cognitectural Dimenscape
+##Frank's Equation: Cognitectural Dimenscape
+
 A deterministic geometric-cryptographic framework that generates unique, infinitely complex 3-D structures from a 4-D tesseract.
 What is Frank's Equation?
+
 Simple Explanation (Non-Mathematical)
+
 Imagine a 4-dimensional cube perfectly hovering in 3D space (X, Y, Z axes). As time extends infinitely, the 4D cube recursively subdivides into smaller 3D cubes. This process is governed by a secure cryptographic hash, the Mesh Function (\mathbf{s}_n), which dictates the geometry at every step.
 The result is the Cognitectural Dimenscape—a geometric structure so complex that:
 Provable Uniqueness: No two structures are identical. Each seed generates a provably different geometry (verified by Theorem 4).
