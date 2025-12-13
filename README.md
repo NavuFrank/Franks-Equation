@@ -29,7 +29,8 @@ This work was inspired by Anne Frank's diary, which moved me deeply. The concept
 
 - `Franks_Equation_Naveen_2025.pdf` — Formal mathematical specification
 - `frank_equation_CODE.py` — The reference Python implementation of the core recursion and Mesh Function Logic.
-- `images/` — 22 hand-drawn cognitectural dimscapes (Visual proofs of complexity)
+- `images/` — 23 hand-drawn proof's of complexity, including the **Evolutionary Recursion Diagram**, demonstrating the Mesh Function's control over the subdivision hierarchy, cognitectural dimscapes 
+- 
 
 ## How to Replicate and Verify
 To verify the deterministic nature of the \mathbf{s}_n Mesh Function, run the Python file:
